@@ -3,11 +3,11 @@ class Main {
     System.out.println("Hello world!");
     String str="Sree";
 String reverse="";
-System.out.println(str);
+System.out.println("Original Sstring "+str);
 for(int i=str.length()-1;i>=0;i--){
 reverse=reverse+str.charAt(i);
 }
-System.out.println(reverse);
+System.out.println("Reversed string "+reverse);
 
   }
 }
