@@ -3,7 +3,7 @@ class Main {
     System.out.println("Hello world!");
     String str="Sree";
 String reverse="";
-System.out.println("Original Sstring "+str);
+System.out.println("Original string "+str);
 for(int i=str.length()-1;i>=0;i--){
 reverse=reverse+str.charAt(i);
 }
